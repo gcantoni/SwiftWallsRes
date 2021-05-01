@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#202124</color>
+    <color name="colorPrimaryDark">#202124</color>
+    <color name="colorBottomBar">#2B2C2F</color>
+    <color name="colorAccent">#202124</color>
+    <color name="colorGradient">#202124</color>
+    <color name="colorRipple">#767679</color>
+    <color name="colorTextPrimary">#FFF</color>
+    <color name="colorTextMain">#FFF</color>
+    <color name="colorTextMainGradient">#FFF</color>
+    <color name="colorTextSecondary">#BDBDBD</color>
+    <color name="colorIcon">#BDBDBD</color>
+    <color name="colorIconMain">#FFF</color>
+    <color name="colorActionBar">@android:color/transparent</color>
+    <color name="colorPreference">#fff</color>
+    <color name="colorMaterialCard">#202124</color>
+    <color name="colorAccentX">#82B1FF</color>
+    <color name="colorAccentXDark">#8082B1FF</color>
+    <color name="colorShadow">#60000000</color>
+    <color name="colorNavBarSplash">#202124</color>
+    <color name="colorTopElements">#FFF</color>
+    <color name="colorIntroSlider">#FFF</color>
+    <color name="fabIconsTexts">#FFF</color>
+    <color name="introTapText">#FFF</color>
+    <color name="blurTextColor">#FFF</color>
+    <color name="colorSeekBarProgressBehind">#FFF</color>
+    <color name="transparent">#20000000</color>
+    <color name="colorToastText">#fff</color>
+    <color name="colorError">#d37877</color>
+    <color name="colorFabTint">#FFF</color>
+    <color name="colorFabIconRefreshLight">#FFF</color>
+    <color name="colorFabIconRefreshDark">#2B2C2F</color>
+    <color name="splashColor">#202124</color>
+    <color name="iconSettingsColor">#FFF</color>
+    <color name="colorCustomTabs">#191b1f</color>
+    <color name="colorCustomTabs_Alternative">#24292E</color>
+    <color name="colorCustomTabs_Alternative2">#17202a</color>
+
+    <color name="verifiedContributor">#3DDC84</color>
+    <color name="dataSaverEnabled">#82DCAA</color>
+
+    <color name="colorYellowPro">#FFDF7D</color>
+
+    <color name="colorCardOutlined">#5F6368</color>
+
+    <color name="mainBottom">#99000000</color>
+    <color name="colorTextBottom">#FFF</color>
+    <color name="colorTextBottomSecondary">#ccffffff</color>
+    <color name="colorBottomIcon">#FFF</color>
+
+    <color name="bottomSheetOp">#99d37877</color>
+
+    <color name="colorToolbar">#F2202124</color>
+
+    <color name="wallpaperTitle">#fff</color>
+
+    <color name="preview_transparent_search_bar">#CC000000</color>
+
+    <color name="bottomSheetBgColor">#2B2C2F</color>
+    <color name="bottomSheetTextColor">#FFF</color>
+    <color name="bottomSheetIconColor">#FFF</color>
+    <color name="colorButtonSwipe">#757575</color>
+
+    <color name="settings_icon_circle_0">#27303F</color>
+    <color name="settings_icon_circle_1">#3C282E</color>
+    <color name="settings_icon_circle_2">#36283F</color>
+    <color name="settings_icon_circle_7">#273D35</color>
+    <color name="settings_icon_circle_3">#3C2F2A</color>
+    <color name="settings_icon_circle_4">#3C3B2A</color>
+
+    <color name="settings_icon_circle_5">#3C283A</color>
+    <color name="settings_icon_circle_6">#273C3F</color>
+
+    <color name="settings_icon_inside_0">#7EABF5</color>
+    <color name="settings_icon_inside_1">#F57E96</color>
+    <color name="settings_icon_inside_2">#D27EF5</color>
+    <color name="settings_icon_inside_7">#F5A77E</color>
+    <color name="settings_icon_inside_3">#7EF5BD</color>
+    <color name="settings_icon_inside_4">#F5E87E</color>
+
+    <color name="settings_icon_inside_5">#F57ED7</color>
+    <color name="settings_icon_inside_6">#7EECF5</color>
+
+    <color name="icon0">#80C7F2</color>
+    <color name="icon2">#CCC</color>
+    <color name="icon3">#D4847C</color>
+    <color name="icon4">#62A9CC</color>
+
+    <color name="colorCardBlue">#ff51799c</color>
+    <color name="colorCardLightBlue">#ff668eb1</color>
+    <color name="colorCardPurple">#ff665980</color>
+    <color name="colorCardLightPurple">#ff87648e</color>
+    <color name="colorCardRed">#ff966363</color>
+    <color name="colorCardLightRed">#b16666</color>
+    <color name="colorCardOrange">#ffb6906c</color>
+    <color name="colorCardLightOrange">#b18066</color>
+    <color name="colorCardYellow">#ff9e8d5b</color>
+    <color name="colorCardLightYellow">#b19e66</color>
+    <color name="colorCardGreen">#3a7972</color>
+    <color name="colorCardLightGreen">#3a795f</color>
+    <color name="colorCardBrown">#9c7151</color>
+    <color name="colorCardLightBrown">#9c7a51</color>
+
+    <!-- accents -->
+    <color name="purpleAccent">#B499FF</color>
+    <color name="greenAccent">#6EE6AC</color>
+    <color name="yellowAccent">#FFE07A</color>
+    <color name="orangeAccent">#FFA77A</color>
+    <color name="tealAccent">#5CBFB1</color>
+    <color name="pinkAccent">#F0ACFC</color>
+    <color name="redAccent">#FF849C</color>
+    <color name="limeAccent">#FFF47A</color>
+
+    <color name="redAccentAlt">#D56666</color>
+    <color name="blueAccentAlt">#7AF1FF</color>
+    <color name="orangeAccentAlt">#FFC67A</color>
+
+    <color name="purpleAccentDark">#80B499FF</color>
+    <color name="greenAccentDark">#806EE6AC</color>
+    <color name="yellowAccentDark">#80FFE07A</color>
+    <color name="orangeAccentDark">#80FFA77A</color>
+    <color name="tealAccentDark">#805CBFB1</color>
+    <color name="pinkAccentDark">#80F0ACFC</color>
+    <color name="redAccentDark">#80FF849C</color>
+    <color name="limeAccentDark">#80FFF47A</color>
+
+    <color name="redAccentAltDark">#80D56666</color>
+    <color name="blueAccentAltDark">#807AF1FF</color>
+    <color name="orangeAccentAltDark">#80FFC67A</color>
+
+    <color name="black">#000</color>
+    <color name="colorWebViewDark">#202124</color>
+
+    <color name="translucent_black">#59000000</color>
+
+
+    <color name="navTransparent">#00000000</color>
+
+</resources>
