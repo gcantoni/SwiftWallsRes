@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Accent styles -->
+
+    <style name="SwiftTheme.blue.alt" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/blueAccentAlt</item>
+        <item name="colorPrimary">@color/blueAccentAlt</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="md_color_button_text">@color/blueAccentAlt</item>
+    </style>
+
+    <style name="SwiftTheme.green" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/greenAccent</item>
+        <item name="colorPrimary">@color/greenAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="md_color_button_text">@color/greenAccent</item>
+    </style>
+
+    <style name="SwiftTheme.orange" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/orangeAccent</item>
+        <item name="colorPrimary">@color/orangeAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="md_color_button_text">@color/orangeAccent</item>
+    </style>
+
+    <style name="SwiftTheme.orange.alt" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/orangeAccentAlt</item>
+        <item name="colorPrimary">@color/orangeAccentAlt</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="md_color_button_text">@color/orangeAccentAlt</item>
+    </style>
+
+    <style name="SwiftTheme.yellow" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/yellowAccent</item>
+        <item name="colorPrimary">@color/yellowAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="md_color_button_text">@color/yellowAccent</item>
+    </style>
+
+    <style name="SwiftTheme.teal" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/tealAccent</item>
+        <item name="colorPrimary">@color/tealAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="md_color_button_text">@color/tealAccent</item>
+    </style>
+
+    <style name="SwiftTheme.pink" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/pinkAccent</item>
+        <item name="colorPrimary">@color/pinkAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="md_color_button_text">@color/pinkAccent</item>
+    </style>
+
+    <style name="SwiftTheme.purple" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/purpleAccent</item>
+        <item name="colorPrimary">@color/purpleAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="md_color_button_text">@color/purpleAccent</item>
+    </style>
+
+    <style name="SwiftTheme.red" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/redAccent</item>
+        <item name="colorPrimary">@color/redAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="md_color_button_text">@color/redAccent</item>
+    </style>
+
+    <style name="SwiftTheme.red.alt" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/redAccentAlt</item>
+        <item name="colorPrimary">@color/redAccentAlt</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="md_color_button_text">@color/redAccentAlt</item>
+    </style>
+
+    <style name="SwiftTheme.lime" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/limeAccent</item>
+        <item name="colorPrimary">@color/limeAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="md_color_button_text">@color/limeAccent</item>
+    </style>
+
+    <!-- Accent styles for STATS -->
+
+    <style name="SwiftTheme.blue.alt.stats" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/blueAccentAlt</item>
+        <item name="colorPrimary">@color/blueAccentAlt</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="SwiftTheme.green.stats" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/greenAccent</item>
+        <item name="colorPrimary">@color/greenAccent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="SwiftTheme.orange.stats" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/orangeAccent</item>
+        <item name="colorPrimary">@color/orangeAccent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="SwiftTheme.orange.alt.stats" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/orangeAccentAlt</item>
+        <item name="colorPrimary">@color/orangeAccentAlt</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="SwiftTheme.yellow.stats" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/yellowAccent</item>
+        <item name="colorPrimary">@color/yellowAccent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="SwiftTheme.teal.stats" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/tealAccent</item>
+        <item name="colorPrimary">@color/tealAccent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="SwiftTheme.pink.stats" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/pinkAccent</item>
+        <item name="colorPrimary">@color/pinkAccent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="SwiftTheme.purple.stats" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/purpleAccent</item>
+        <item name="colorPrimary">@color/purpleAccent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="SwiftTheme.red.stats" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/redAccent</item>
+        <item name="colorPrimary">@color/redAccent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="SwiftTheme.red.alt.stats" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/redAccentAlt</item>
+        <item name="colorPrimary">@color/redAccentAlt</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="SwiftTheme.lime.stats" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/limeAccent</item>
+        <item name="colorPrimary">@color/limeAccent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+    </style>
+
+    <!-- Accent styles for SETTINGS -->
+
+    <style name="SwiftTheme.blue.alt.settings" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorAccent">@color/blueAccentAlt</item>
+        <item name="colorPrimary">@color/blueAccentAlt</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:textViewStyle">@style/SettingsTextStyle</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyleList</item>
+        <item name="android:colorBackground">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="md_color_button_text">@color/blueAccentAlt</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <style name="SwiftTheme.green.settings" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorAccent">@color/greenAccent</item>
+        <item name="colorPrimary">@color/greenAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:textViewStyle">@style/SettingsTextStyle</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyleList</item>
+        <item name="android:colorBackground">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="md_color_button_text">@color/greenAccent</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <style name="SwiftTheme.orange.settings" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorAccent">@color/orangeAccent</item>
+        <item name="colorPrimary">@color/orangeAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:textViewStyle">@style/SettingsTextStyle</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyleList</item>
+        <item name="android:colorBackground">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="md_color_button_text">@color/orangeAccent</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <style name="SwiftTheme.orange.alt.settings" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorAccent">@color/orangeAccentAlt</item>
+        <item name="colorPrimary">@color/orangeAccentAlt</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:textViewStyle">@style/SettingsTextStyle</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyleList</item>
+        <item name="android:colorBackground">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="md_color_button_text">@color/orangeAccentAlt</item>
+    </style>
+
+    <style name="SwiftTheme.yellow.settings" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorAccent">@color/yellowAccent</item>
+        <item name="colorPrimary">@color/yellowAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:textViewStyle">@style/SettingsTextStyle</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyleList</item>
+        <item name="android:colorBackground">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="md_color_button_text">@color/yellowAccent</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <style name="SwiftTheme.teal.settings" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorAccent">@color/tealAccent</item>
+        <item name="colorPrimary">@color/tealAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:textViewStyle">@style/SettingsTextStyle</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyleList</item>
+        <item name="android:colorBackground">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="md_color_button_text">@color/tealAccent</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <style name="SwiftTheme.pink.settings" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorAccent">@color/pinkAccent</item>
+        <item name="colorPrimary">@color/pinkAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:textViewStyle">@style/SettingsTextStyle</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyleList</item>
+        <item name="android:colorBackground">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="md_color_button_text">@color/pinkAccent</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <style name="SwiftTheme.purple.settings" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorAccent">@color/purpleAccent</item>
+        <item name="colorPrimary">@color/purpleAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:textViewStyle">@style/SettingsTextStyle</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyleList</item>
+        <item name="android:colorBackground">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="md_color_button_text">@color/purpleAccent</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <style name="SwiftTheme.red.settings" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorAccent">@color/redAccent</item>
+        <item name="colorPrimary">@color/redAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:textViewStyle">@style/SettingsTextStyle</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyleList</item>
+        <item name="android:colorBackground">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="md_color_button_text">@color/redAccent</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <style name="SwiftTheme.red.alt.settings" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorAccent">@color/redAccentAlt</item>
+        <item name="colorPrimary">@color/redAccentAlt</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:textViewStyle">@style/SettingsTextStyle</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyleList</item>
+        <item name="android:colorBackground">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="md_color_button_text">@color/redAccentAlt</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <style name="SwiftTheme.lime.settings" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorAccent">@color/limeAccent</item>
+        <item name="colorPrimary">@color/limeAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:textViewStyle">@style/SettingsTextStyle</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyleList</item>
+        <item name="android:colorBackground">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="md_color_button_text">@color/limeAccent</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+</resources>

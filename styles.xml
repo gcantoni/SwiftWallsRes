@@ -1,0 +1,362 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="SwiftTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorAccentX</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="md_font_title">@font/manrope</item>
+        <item name="md_font_body">@font/manrope</item>
+        <item name="md_font_button">@font/manrope</item>
+        <item name="md_ripple_color">@color/colorRipple</item>
+        <item name="md_background_color">@color/colorPrimary</item>
+        <item name="md_color_button_text">@color/colorAccentX</item>
+    </style>
+
+    <style name="CustomizeWallpaperTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/mainBottom</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="IntroTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorAccentX</item>
+        <item name="colorAccent">@color/colorTextMainGradient</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="android:colorBackground">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorMaterialCard</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="AboutTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorAccentX</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+
+        <item name="md_font_title">@font/manrope</item>
+        <item name="md_font_body">@font/manrope</item>
+        <item name="md_font_button">@font/manrope</item>
+        <item name="md_ripple_color">@color/colorRipple</item>
+        <item name="md_background_color">@color/colorPrimary</item>
+        <item name="md_color_button_text">@color/colorAccentX</item>
+
+        <item name="textInputStyle">@style/CustomFontTextInputLayout</item>
+    </style>
+
+    <style name="TextInputLayout.OutlineBox.CustomFont" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:theme">@style/ThemeOverlay.TextInputEditText.OutlinedBox.CustomFont</item>
+    </style>
+
+    <style name="ThemeOverlay.TextInputEditText.OutlinedBox.CustomFont" parent="ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="editTextStyle">@style/TextInputEditText.OutlinedBox.CustomFont</item>
+    </style>
+
+    <style name="TextInputEditText.OutlinedBox.CustomFont" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:fontFamily">@font/manrope</item>
+    </style>
+
+    <style name="CustomFontTextInputLayout" parent="Widget.Design.TextInputLayout">
+        <item name="hintTextAppearance">@style/TextInputLayoutHintText</item>
+        <item name="helperTextTextAppearance">@style/TextInputLayoutHelperText</item>
+        <item name="errorTextAppearance">@style/TextInputLayoutErrorText</item>
+    </style>
+
+    <style name="TextInputLayoutHintText" parent="TextAppearance.Design.Hint">
+        <item name="android:fontFamily">@font/manrope</item>
+    </style>
+
+    <style name="TextInputLayoutHelperText" parent="TextAppearance.Design.HelperText">
+        <item name="android:fontFamily">@font/manrope</item>
+    </style>
+
+    <style name="TextInputLayoutErrorText" parent="TextAppearance.Design.Error">
+        <item name="android:fontFamily">@font/manrope</item>
+    </style>
+
+    <style name="ChangelogTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorAccentX</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+    </style>
+
+    <style name="StatsTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorAccentX</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+
+        <item name="md_font_title">@font/manrope</item>
+        <item name="md_font_body">@font/manrope</item>
+        <item name="md_font_button">@font/manrope</item>
+        <item name="md_ripple_color">@color/colorRipple</item>
+        <item name="md_background_color">@color/colorPrimary</item>
+    </style>
+
+    <style name="StatsToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">#fff</item>
+    </style>
+
+    <style name="GeneralTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorAccentX</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/splashColor</item>
+        <item name="android:navigationBarColor">@color/colorNavBarSplash</item>
+        <item name="android:windowBackground">@drawable/splash_theme</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="DialogApp" parent="@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Centered">
+        <item name="android:colorAccent">@color/colorAccentX</item>
+        <item name="android:windowBackground">@drawable/dialog_theme_inset</item>
+    </style>
+
+    <style name="SettingsTheme" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorPrimary">@color/colorAccentX</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccentX</item>
+        <item name="android:colorBackground">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorRipple</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyleList</item>
+        <item name="android:textViewStyle">@style/SettingsTextStyle</item>
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:textSize">15sp</item>
+
+        <item name="md_font_title">@font/manrope</item>
+        <item name="md_font_body">@font/manrope</item>
+        <item name="md_font_button">@font/manrope</item>
+        <item name="md_ripple_color">@color/colorRipple</item>
+        <item name="md_background_color">@color/colorPrimary</item>
+        <item name="md_color_button_text">@color/colorAccentX</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <style name="SettingsTextStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/manrope</item>
+    </style>
+
+    <style name="AlertDialogStyle" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="buttonBarStyle">@style/AlertDialogStyle.ButtonBar</item>
+        <item name="dialogCornerRadius">@dimen/preference_dialog_round</item>
+        <item name="dialogPreferredPadding">@dimen/preference_dialog_padding</item>
+        <item name="android:textAppearanceSmall">@style/MyTextAppearance</item>
+        <item name="android:textAppearanceMedium">@style/MyTextAppearance</item>
+        <item name="android:textAppearanceLarge">@style/MyTextAppearance</item>
+    </style>
+
+    <style name="AlertDialogStyleList" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="dialogCornerRadius">@dimen/preference_dialog_round</item>
+        <item name="android:textAppearanceSmall">@style/MyTextAppearance</item>
+        <item name="android:textAppearanceMedium">@style/MyTextAppearance</item>
+        <item name="android:textAppearanceLarge">@style/MyTextAppearance</item>
+        <item name="android:textAppearanceButton">@style/MyTextAppearance</item>
+    </style>
+
+    <style name="AlertDialogStyle.ButtonBar" parent ="@style/Widget.AppCompat.ButtonBar.AlertDialog">
+        <item name="android:paddingBottom">@dimen/preference_dialog_round</item>
+        <item name="android:paddingTop">@dimen/preference_dialog_round</item>
+    </style>
+
+    <style name="MyTextAppearance" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:fontFamily">@font/manrope</item>
+    </style>
+
+    <style name="CustomDialogTheme" parent="Theme.MaterialComponents.Dialog">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorTextMainGradient</item>
+        <item name="colorAccent">@color/colorTextMainGradient</item>
+        <item name="android:fontFamily">@font/manrope</item>
+        <item name="android:windowBackground">@drawable/progress_dialog_theme</item>
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+    </style>
+
+    <style name="CustomDialogThemeMain" parent="Theme.MaterialComponents.Dialog">
+        <item name="android:textColor">@color/colorTextBottom</item>
+        <item name="colorAccent">@color/colorTextBottom</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+        <item name="android:windowBackground">@drawable/progress_dialog_theme_main</item>
+        <item name="android:fontFamily">@font/manrope</item>
+    </style>
+
+    <style name="CustomFilterDialogTheme" parent="Theme.MaterialComponents.Dialog">
+        <item name="android:textColor">@color/colorTextBottom</item>
+        <item name="colorAccent">@color/colorTextBottom</item>
+        <item name="android:windowBackground">@drawable/dialog_theme_inset_filter</item>
+        <item name="android:fontFamily">@font/manrope</item>
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/colorTextBottom</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/colorTextBottom</item>
+    </style>
+
+    <style name="StoreTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorAccentX</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+
+        <item name="md_font_title">@font/manrope</item>
+        <item name="md_font_body">@font/manrope</item>
+        <item name="md_font_button">@font/manrope</item>
+        <item name="md_ripple_color">@color/colorRipple</item>
+        <item name="md_background_color">@color/colorPrimary</item>
+    </style>
+
+    <style name="ImagePreviewerTheme" >
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="NavigationItemNoRipple">
+        <item name="android:colorControlHighlight">@android:color/transparent</item>
+    </style>
+
+    <style name="BottomSheet" parent="@style/Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_bottom_sheet_dialog_fragment</item>
+    </style>
+
+    <style name="BaseBottomSheetDialog" parent="@style/Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="bottomSheetStyle">@style/BottomSheet</item>
+    </style>
+
+    <style name="BottomSheetDialogTheme" parent="BaseBottomSheetDialog" />
+
+    <style name="BottomSheetBlack" parent="@style/Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_bottom_sheet_dialog_fragment_black</item>
+    </style>
+
+    <style name="BaseBottomSheetDialogBlack" parent="@style/Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="bottomSheetStyle">@style/BottomSheetBlack</item>
+    </style>
+
+    <style name="BottomSheetDialogThemeBlack" parent="BaseBottomSheetDialogBlack" />
+
+    <style name="BottomSheetTextStyle">
+        <item name="fontFamily">@font/manrope</item>
+    </style>
+
+    <style name="BottomSheetStore" parent="@style/Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_bottom_sheet_dialog_fragment2</item>
+    </style>
+
+    <style name="BaseBottomSheetDialogStore" parent="@style/Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="bottomSheetStyle">@style/BottomSheetStore</item>
+    </style>
+
+    <style name="BottomSheetDialogThemeStore" parent="BaseBottomSheetDialog" />
+
+    <style name="BottomSheetTextStyleStore">
+        <item name="fontFamily">@font/manrope</item>
+    </style>
+
+    <style name="FontStyle">
+        <item name="android:fontFamily">@font/manrope</item>
+    </style>
+
+    <style name="about_entry">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">4dp</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="icon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="about_title_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="about_author_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="about_subtitle_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="AboutLibrary">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingStart">15dp</item>
+        <item name="android:paddingEnd">15dp</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+</resources>

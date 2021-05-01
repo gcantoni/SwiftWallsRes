@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Accent styles -->
+
+    <style name="SwiftTheme.default.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/colorAccentX</item>
+        <item name="colorPrimary">@color/colorAccentX</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.blue.alt.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/blueAccentAlt</item>
+        <item name="colorPrimary">@color/blueAccentAlt</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.green.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/greenAccent</item>
+        <item name="colorPrimary">@color/greenAccent</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.orange.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/orangeAccent</item>
+        <item name="colorPrimary">@color/orangeAccent</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.orange.alt.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/orangeAccentAlt</item>
+        <item name="colorPrimary">@color/orangeAccentAlt</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.yellow.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/yellowAccent</item>
+        <item name="colorPrimary">@color/yellowAccent</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.teal.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/tealAccent</item>
+        <item name="colorPrimary">@color/tealAccent</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.pink.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/pinkAccent</item>
+        <item name="colorPrimary">@color/pinkAccent</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.purple.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/purpleAccent</item>
+        <item name="colorPrimary">@color/purpleAccent</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.red.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/redAccent</item>
+        <item name="colorPrimary">@color/redAccent</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.red.alt.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/redAccentAlt</item>
+        <item name="colorPrimary">@color/redAccentAlt</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.lime.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/limeAccent</item>
+        <item name="colorPrimary">@color/limeAccent</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <!-- Accent styles for SETTINGS black -->
+
+    <style name="SwiftTheme.default.settings.black" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorAccent">@color/colorAccentX</item>
+        <item name="colorPrimary">@color/colorAccentX</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:textViewStyle">@style/SettingsTextStyle</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyleList</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="md_background_color">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.blue.alt.settings.black" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorAccent">@color/blueAccentAlt</item>
+        <item name="colorPrimary">@color/blueAccentAlt</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:textViewStyle">@style/SettingsTextStyle</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyleList</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="md_background_color">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.green.settings.black" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorAccent">@color/greenAccent</item>
+        <item name="colorPrimary">@color/greenAccent</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:textViewStyle">@style/SettingsTextStyle</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyleList</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="md_background_color">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.orange.settings.black" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorAccent">@color/orangeAccent</item>
+        <item name="colorPrimary">@color/orangeAccent</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:textViewStyle">@style/SettingsTextStyle</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyleList</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="md_background_color">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.orange.alt.settings.black" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorAccent">@color/orangeAccentAlt</item>
+        <item name="colorPrimary">@color/orangeAccentAlt</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:textViewStyle">@style/SettingsTextStyle</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyleList</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="md_background_color">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.yellow.settings.black" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorAccent">@color/yellowAccent</item>
+        <item name="colorPrimary">@color/yellowAccent</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:textViewStyle">@style/SettingsTextStyle</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyleList</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="md_background_color">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.teal.settings.black" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorAccent">@color/tealAccent</item>
+        <item name="colorPrimary">@color/tealAccent</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:textViewStyle">@style/SettingsTextStyle</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyleList</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="md_background_color">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.pink.settings.black" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorAccent">@color/pinkAccent</item>
+        <item name="colorPrimary">@color/pinkAccent</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:textViewStyle">@style/SettingsTextStyle</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyleList</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="md_background_color">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.purple.settings.black" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorAccent">@color/purpleAccent</item>
+        <item name="colorPrimary">@color/purpleAccent</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:textViewStyle">@style/SettingsTextStyle</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyleList</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="md_background_color">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.red.settings.black" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorAccent">@color/redAccent</item>
+        <item name="colorPrimary">@color/redAccent</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:textViewStyle">@style/SettingsTextStyle</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyleList</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="md_background_color">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.red.alt.settings.black" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorAccent">@color/redAccentAlt</item>
+        <item name="colorPrimary">@color/redAccentAlt</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:textViewStyle">@style/SettingsTextStyle</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyleList</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="md_background_color">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.lime.settings.black" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorAccent">@color/limeAccent</item>
+        <item name="colorPrimary">@color/limeAccent</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:textViewStyle">@style/SettingsTextStyle</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyleList</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="md_background_color">@color/black</item>
+    </style>
+
+    <!-- Accent styles for SETTINGS black -->
+
+    <style name="SwiftTheme.default.general.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorAccentX</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.blue.alt.general.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blueAccentAlt</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.green.general.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/greenAccent</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.orange.general.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/orangeAccent</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.orange.alt.general.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/orangeAccentAlt</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.yellow.general.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/yellowAccent</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.teal.general.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/tealAccent</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.pink.general.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/pinkAccent</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.purple.general.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purpleAccent</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.red.general.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/redAccent</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.red.alt.general.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/redAccentAlt</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.lime.general.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/limeAccent</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <!-- Accent styles for STATS -->
+
+    <style name="SwiftTheme.default.stats.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/colorAccentX</item>
+        <item name="colorPrimary">@color/colorAccentX</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="md_background_color">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.blue.alt.stats.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/blueAccentAlt</item>
+        <item name="colorPrimary">@color/blueAccentAlt</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="md_background_color">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.green.stats.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/greenAccent</item>
+        <item name="colorPrimary">@color/greenAccent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="md_background_color">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.orange.stats.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/orangeAccent</item>
+        <item name="colorPrimary">@color/orangeAccent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="md_background_color">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.orange.alt.stats.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/orangeAccentAlt</item>
+        <item name="colorPrimary">@color/orangeAccentAlt</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="md_background_color">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.yellow.stats.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/yellowAccent</item>
+        <item name="colorPrimary">@color/yellowAccent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="md_background_color">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.teal.stats.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/tealAccent</item>
+        <item name="colorPrimary">@color/tealAccent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="md_background_color">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.pink.stats.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/pinkAccent</item>
+        <item name="colorPrimary">@color/pinkAccent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="md_background_color">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.purple.stats.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/purpleAccent</item>
+        <item name="colorPrimary">@color/purpleAccent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="md_background_color">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.red.stats.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/redAccent</item>
+        <item name="colorPrimary">@color/redAccent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="md_background_color">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.red.alt.stats.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/redAccentAlt</item>
+        <item name="colorPrimary">@color/redAccentAlt</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="md_background_color">@color/black</item>
+    </style>
+
+    <style name="SwiftTheme.lime.stats.black" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/limeAccent</item>
+        <item name="colorPrimary">@color/limeAccent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="md_background_color">@color/black</item>
+    </style>
+
+</resources>
